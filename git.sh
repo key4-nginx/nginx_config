@@ -9,4 +9,3 @@ if [ $LOCAL = $REMOTE ]; then
 #    echo "Need to pull"
 else
     echo "fwafw"
-fi
