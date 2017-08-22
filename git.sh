@@ -5,8 +5,8 @@ LOCAL=$(git rev-parse @)
 #echo $LOCAL
 if [ $LOCAL = $REMOTE ]; then
     echo "Up-to-date"
-elif [ $LOCAL != $REMOTE ]; then
-    echo "Need to pull"
+#elif [ $LOCAL != $REMOTE ]; then
+#    echo "Need to pull"
 else
-    echo "Diverged"
+    echo "fwafw"
 fi
