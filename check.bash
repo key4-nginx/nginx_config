@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 REMOTE=$(git ls-remote https://github.com/key4-nginx/nginx_config.git | grep HEAD | awk '{ print $1}')
 LOCAL=$(git rev-parse @)
 
