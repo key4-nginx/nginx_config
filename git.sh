@@ -8,4 +8,4 @@ elif [[ $LOCAL != $REMOTE ]]; then
     sh -c 'cd /etc/nginx/nginx_config && git pull'
 else
     echo "Diverged"
-	fi
+fi
