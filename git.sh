@@ -5,7 +5,7 @@ LOCAL=$(git rev-parse @)
 if [[ $LOCAL = $REMOTE ]]; then
     echo "Up-to-date"
 elif [[ $LOCAL != $REMOTE ]]; then
-    git pull
+    sh -c 'cd /etc/nginx/nginx_config && git pull'
 else
     echo "Diverged"
 	fi
